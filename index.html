@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.Folio I Made Naufal AMP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            background-color: #1f2937;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .page-title {
+            font-size: 3rem;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 2rem;
+            position: relative;
+            margin-bottom: 40px;
+        }
+        
+        .page-title::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30vh;
+            height: 4px;
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="page-title">PortoFolio I Made Naufal</h1>
+    </header>
+
+    <div class="container mx-auto px-6 py-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+            <!-- Profile Section -->
+            <div class="bg-white rounded-lg shadow-lg p-6 text-center">
+                <img src="/img/PasPhoto.jpg" alt="Profile Picture" class="rounded w-107 h-170 mx-auto mb-4 border-4 border-gray-300">
+                <h2 class="text-xl font-bold text-gray-900">I MADE NAUFAL AHMAD MINARTHA PUTRA</h2>
+                <p class="text-gray-600">Web Developer | UI/UX Designer | Network Engineer</p>
+
+                <!-- Social Media Links -->
+                <div class="flex justify-center gap-5 mt-4">
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub Profile">
+                        <i class="fab fa-github text-gray-600 text-2xl hover:text-gray-400"></i>
+                    </a>
+
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                        <i class="fab fa-linkedin text-blue-600 text-2xl hover:text-blue-400"></i>
+                    </a>
+                    <a href="https://www.instagram.com/made_nopall/" target="_blank" rel="noopener" aria-label="Instagram Profile">
+                        <i class="fab fa-instagram text-pink-600 text-2xl hover:text-pink-400"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- About Me Section -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-semibold text-gray-900 mb-3 mt-7">About Me</h2>
+                <p class="text-gray-800 leading-relaxed">
+                    Hello! I am a passionate web developer and UI/UX designer with a strong enthusiasm for technology and digital innovation. I come from <span class="font-semibold">Cilegon, Banten</span>, and I am currently a student at
+                    <span class="font-bold">SMK Negeri 1 Cilegon</span>. My deep interest in the IT world led me to pursue a major in
+                    <span class="font-bold">Network & Application Information Systems</span>. I enjoy exploring the latest advancements in web development, designing intuitive user experiences, and building efficient, responsive applications. With a growing
+                    skill set in front-end and back-end development, I am continuously learning and improving to keep up with industry standards. I believe that technology has the power to transform ideas into reality, and I am eager to contribute to
+                    innovative projects that make a real impact. Feel free to connect with me to discuss technology, web development, or exciting new opportunities!
+                </p>
+
+
+                <!-- Download CV / Contact Me Button -->
+                <div class="mt-5 flex space-x-3">
+                    <a href="your-cv.pdf" download class="bg-blue-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-blue-500 transition">
+                        Download CV
+                    </a>
+                    <a href="https://wa.me/6282112731108" class="bg-gray-800 text-white px-5 py-2 rounded-lg shadow-md hover:bg-gray-700 transition" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Contact Me
+                    </a>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-3 mt-7">Skills</h2>
+                    <ul class="list-disc list-inside text-gray-800 leading-relaxed">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>Installation Opical Fiber (FTTH)</li>
+                        <li>Basic Networking</li>
+                        <li>CCTV Installation</li>
+                        <li>GPS Tracker Installation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
